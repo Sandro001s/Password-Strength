@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/66b0dc1e98.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="container">
+
+        <input type="password" id="password" oninput="strengthchecker()">
+        <span id="toggle" onclick="toggle()">
+            <i class="fa-solid fa-lock"></i>
+        </span>
+        <div id="strength-bar"></div>
+       </div>
+       <p id="msg">Simple message</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
